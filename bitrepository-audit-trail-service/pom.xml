@@ -6,10 +6,6 @@
     <groupId>org.bitrepository.reference</groupId>
     <version>1.7-SNAPSHOT</version>
   </parent>
-  <properties>
-    <sonar.skip>false</sonar.skip>
-  </properties>
-
   <artifactId>bitrepository-audit-trail-service</artifactId>
   <packaging>war</packaging>
   <name>Bitrepository Audit Trail Service</name>

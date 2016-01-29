@@ -6,10 +6,6 @@
     <version>1.7-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <properties>
-    <sonar.skip>false</sonar.skip>
-  </properties>
-
 
   <artifactId>bitrepository-client</artifactId>
   <name>Bitrepository Client</name>

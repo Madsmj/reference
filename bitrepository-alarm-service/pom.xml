@@ -5,9 +5,6 @@
   <artifactId>bitrepository-alarm-service</artifactId>
   <name>Bitrepository Alarm Service</name>
   <packaging>war</packaging>
-  <properties>
-    <sonar.skip>false</sonar.skip>
-  </properties>
   <parent>
     <groupId>org.bitrepository.reference</groupId>
     <artifactId>bitrepository-parent</artifactId>
