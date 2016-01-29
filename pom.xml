@@ -367,6 +367,26 @@
 
     <profiles>
         <profile>
+            <id>sonar</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.sonar</groupId>
+                        <artifactId>sonar-maven-plugin</artifactId>
+                        <version>2.6</version>
+                        <executions>
+                            <execution>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sonar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
             <id>deploy</id>
             <build>
                 <plugins>
